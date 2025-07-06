@@ -1,6 +1,54 @@
 import React from 'react';
 
 export default function ServicesSection() {
+  const services = [
+    {
+      title: "MVP Development Expertise",
+      description:
+        "We help turn ideas into fully functional MVPs, enabling you to validate your concept quickly and cost-effectively.",
+    },
+    {
+      title: "Web & Mobile App Development",
+      description:
+        "Our team crafts seamless, responsive, and feature-rich web and mobile applications tailored to your business needs.",
+    },
+    {
+      title: "Website Development",
+      description:
+        "From landing pages to complex platforms, we build fast, secure, and scalable websites that reflect your brand identity.",
+    },
+    {
+      title: "Talent Management",
+      description:
+        "We source, manage, and nurture top talent, ensuring the right people are in place to help your business grow.",
+    },
+    {
+      title: "Digital Marketing Excellence",
+      description:
+        "Boost your online presence with strategic campaigns designed to increase visibility, engagement, and conversion.",
+    },
+    {
+      title: "Content Creation",
+      description:
+        "We create compelling content—from blogs to videos—that engages your audience and aligns with your brand voice.",
+    },
+    {
+      title: "Social Media Mastery",
+      description:
+        "Our experts manage your social media platforms with precision, increasing reach and driving meaningful interaction.",
+    },
+    {
+      title: "Branding Brilliance",
+      description:
+        "We develop powerful brand identities, including logos, tone, and messaging that resonate with your target audience.",
+    },
+    {
+      title: "Influencer Marketing",
+      description:
+        "We connect you with the right influencers to amplify your brand, build trust, and expand your market reach.",
+    },
+  ];
+
   return (
     <div className="relative min-h-screen overflow-hidden bg-white font-mersad">
       {/* Decorative images */}
@@ -24,25 +72,13 @@ export default function ServicesSection() {
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {/* Services */}
-          {[
-            "MVP Development Expertise",
-            "Web & Mobile App Development",
-            "Website Development",
-            "Talent Management",
-            "Digital Marketing Excellence",
-            "Content Creation",
-            "Social Media Mastery",
-            "Branding Brilliance",
-            "Influencer Marketing",
-          ].map((service, index) => (
+          {services.map((service, index) => (
             <div key={index} className="max-w-xs sm:max-w-sm md:max-w-[300px] mx-auto">
               <h2 className="text-lg font-bold mb-2 text-black text-center sm:text-left">
-                {service}
+                {service.title}
               </h2>
               <p className="text-xs sm:text-sm text-gray-500 line-clamp-3 text-center sm:text-left">
-                Lorem ipsum Dolor Sit Amet Consectetur Pellentibus Phasellus
-                Condimentum Amet Aliquet Quam Sem Mattis Maecenas Purus.
+                {service.description}
               </p>
             </div>
           ))}

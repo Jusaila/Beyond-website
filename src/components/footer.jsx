@@ -14,19 +14,19 @@ export default function Footer() {
 
           {/* Navigation Links */}
           <nav className="flex flex-col space-y-2 text-gray-600">
-            <a href="/about-us" className="hover:text-gray-900">
+            <a href="/about" className="hover:text-gray-900">
               About Us
             </a>
-            <a href="/projects" className="hover:text-gray-900">
-              Projects
+            <a href="/services" className="hover:text-gray-900">
+              Services
             </a>
-            <a href="/career" className="hover:text-gray-900">
+            <a href="#" className="hover:text-gray-900">
               Career
             </a>
-            <a href="/contact-us" className="hover:text-gray-900">
+            <a href="#" className="hover:text-gray-900">
               Contact Us
             </a>
-            <a href="/terms" className="hover:text-gray-900">
+            <a href="#" className="hover:text-gray-900">
               Terms & Conditions
             </a>
             <a href="/privacy" className="hover:text-gray-900">

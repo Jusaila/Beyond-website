@@ -47,9 +47,9 @@ function Business() {
           <div className="relative z-10 max-w-3xl">
             <h1 className="text-5xl font-bold mb-6">Design For Business</h1>
             <p className="text-lg">
-              Lorem Ipsum Dolor Sit Amet Consectetur. Penatibus Pharetra Condimentum Amet Aliquet Quam Sem Mattis
-              Maecenas Purus. Non Risus Nisi Eu Lobortis Ullamcorper Mauris Ut Quisque.
-            </p>
+  We design with intent — creating digital experiences that not only look great but drive results. From branding to user experience, every detail is crafted to elevate your business and engage your audience.
+</p>
+
           </div>
         </motion.div>
       </div>

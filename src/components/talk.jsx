@@ -165,9 +165,9 @@ export default function Talk() {
           Let's Talk!
         </h3>
         <p className="text-gray-500 text-md px-8 pt-6">
-          Lorem Ipsum Dolor Sit Amet Consectetur.<br />Pharetra Condimentum Amet Aliquet Quam<br /> Nam
-          Mattis Maecenas Purus.
-        </p>
+        We love turning bold ideas into real-world products.<br/> Whether you're starting fresh or scaling up, our team is here to bring<br/> your vision to life — beautifully, strategically, and with impact.
+      </p>
+
         <button className="bg-[#121EC5] text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
           Contact Us
         </button>
